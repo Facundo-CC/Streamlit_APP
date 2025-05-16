@@ -3,10 +3,10 @@ Overview
 This simple machine learning app uses Streamlit to classify wine varieties based on their chemical properties. Built as a demonstration for educational purposes, it showcases how to implement a classification model with a user-friendly web interface.
 
 # Features
-Interactive sliders to input wine chemical properties
-Real-time prediction of wine variety
-Visualization of prediction probabilities
-Multi-page interface with About section
+- Interactive sliders to input wine chemical properties
+- Real-time prediction of wine variety
+- Visualization of prediction probabilities
+- Multi-page interface with About section
 
 # Installation
 Requirements
@@ -26,10 +26,10 @@ streamlit run app.py
 
 
 # Project Structure
-app.py: Main application entrypoint
-pages/classifier.py: Wine variety classifier interface
-pages/about.py: Information about the dataset and model
-wine_classifier.pkl: Pre-trained RandomForest model
+- app.py: Main application entrypoint
+- pages/classifier.py: Wine variety classifier interface
+- pages/about.py: Information about the dataset and model
+- wine_classifier.pkl: Pre-trained RandomForest model
 
 #  Dataset
 The application uses the Wine dataset from scikit-learn, which contains chemical analyses of wines from three different cultivars.
